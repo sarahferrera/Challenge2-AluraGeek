@@ -1,0 +1,12 @@
+:root {
+    --color-blue-btns: #2A7AE4
+}
+
+body {
+    margin: 0;
+}
+
+button {
+    width: 133px;
+    padding: 12px 16px;
+}

@@ -5,36 +5,58 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="banner.css">
+    <link rel="stylesheet" href="catalog.css">
+    <link rel="stylesheet" href="nav.css">
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="footer.css">
     <title>AluraGeek</title>
 </head>
 
 <body>
     <header>
         <nav class="menu">
-            <img src="img/Logo.png" alt="" class="logo">
+            <img src="img/Logo.svg" alt="" class="logo">
 
             <button class="btn__login">Login</button>
-        </nav>
-        <div class="search">
-            <img src="img/Icone__lupa.png" alt="">
+            <div class="search">
+            <img src="img/Icone__lupa.svg" alt="">
         </div>
+        </nav>
+        
     </header>
     <main>
         <section class="banner">
-            <img src="img/banner-image.png" alt="">
-            <h1 class="banner__title">Abril promocional</h1>
-            <p class="banner_paragraph">Productos seleccionados con 33% de descuento</p>
-            <button class="banner__btn">Ver Consolas</button>
+            <!-- <img src="img/banner-image.png" alt=""> -->
+            <div class="banner__text">
+                <h1 class="banner__title">Abril promocional</h1>
+                <p class="banner_paragraph">Productos seleccionados con 33% de descuento</p>
+                <button class="banner__btn">Ver Consolas</button>
+            </div>
+
         </section>
+
         <section class="catalog">
-            <div class="catalog__one"></div>
-            <div class="catalog__two"></div>
-            <div class="catalog__three"></div>
+            <div class="catalog__one">
+                <h2>Star Wars</h2>
+                <ul class="catalog__list">
+                    <li class="catalog__list__item"></li>
+                    <li class="catalog__list__item"></li>
+                    <li class="catalog__list__item"></li>
+                    <li class="catalog__list__item"></li>
+                </ul>
+                
+            </div>
+            <div class="catalog__two">Consolas</div>
+            <div class="catalog__three">Diversos</div>
         </section>
 
         <section class="nav">
             <nav class="links">
-                <img src="" alt="">
+                <img src="img/Logo.svg" alt="">
                 <ul class="links__list">
                     <li class="links__list__items"><a href="">Quienes somos</a></li>
                     <li class="links__list__items"><a href="">Política de privacidad</a></li>
@@ -46,10 +68,20 @@
             </nav>
         </section>
 
-        <section class="contact"></section>
+        <section class="contact">
+            <h3 class="contact__title">Hable con nosotros</h3>
+            <form class="contact__form">
+                <label for="name"></label>
+                <input title="name" type="name">
+                <label for="message"></label>
+                <textarea title="message" cols="30" rows="10"></textarea>
+            </form>
+
+        </section>
     </main>
     <footer>
-
+        <p class="footer__paragraph">Desarrollado por Sarah Ferrera <br>
+            2023</p>
     </footer>
 </body>
 

@@ -1,0 +1,39 @@
+.banner{
+    display: flex;
+    height: 192px;
+    background-image: url(img/banner-image.png);
+}
+
+.banner img{
+    width: 100vw;
+    position: absolute;
+    align-self: stretch;
+    align-self: center;
+    height: 192px;
+
+
+
+}
+
+.banner__text{
+    position: absolute;
+    color: white;
+
+}
+
+.banner__title{
+    font-size: 22px;
+    margin: 0;
+}
+
+.banner_paragraph{
+    font-size: 14px;
+    margin: 0;
+}
+
+.banner__btn{
+    border: none;
+    color: white;
+    background-color: var(--color-blue-btns);
+}
+
