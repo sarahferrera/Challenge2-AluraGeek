@@ -1,39 +1,33 @@
-.banner{
-    display: flex;
-    height: 192px;
-    background-image: url(img/banner-image.png);
-}
-
-.banner img{
-    width: 100vw;
-    position: absolute;
-    align-self: stretch;
-    align-self: center;
-    height: 192px;
-
-
-
-}
-
-.banner__text{
-    position: absolute;
+.banner {
     color: white;
+    height: 192px;
+    background: url(img/banner-image.png) center;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 1rem;
 
 }
 
-.banner__title{
+.banner__title {
     font-size: 22px;
     margin: 0;
+    padding-bottom: 0.5rem;
 }
 
-.banner_paragraph{
+.banner_paragraph {
     font-size: 14px;
     margin: 0;
+    padding-bottom: 0.5rem;
 }
 
-.banner__btn{
+.banner__btn {
     border: none;
     color: white;
     background-color: var(--color-blue-btns);
-}
+    padding-bottom: 0.5rem;
 
+}
