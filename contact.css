@@ -9,23 +9,24 @@
     color: var(--color-brown-font);
 }
 
-.contact__form input {
-    width: 328px;
-    height: 56px;
+.form__text{
     border: none;
+    width: 90%;
+    padding: 1rem;
+    font-size: 1rem;
+    font-family: 'Raleway', sans-serif;
+    border-radius: 4px;
+}
+
+.contact__form input {
     margin-bottom: 0.5rem;
 }
 
-.contact__form textarea {
-    width: 328px;
-    height: 82px;
-    border: none;
-}
 
 .contact__form__btn{
     border: none;
     color: white;
     background-color: var(--color-blue-btns);
     margin: 0.5rem 0 ;
-
+    margin-bottom: 1rem;
 }
