@@ -1,0 +1,26 @@
+.links {
+    text-align: center;
+    background-color: var(--color-light-blue);
+    padding: 1rem;
+}
+
+.links img {
+    width: 176px;
+}
+
+.links__list {
+    list-style: none;
+    padding: 0;
+    margin-top: 0.5rem;
+}
+
+.links__list__items {
+    padding-bottom: 0.7rem;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.links__list__items a {
+    color: var(--color-brown-font);
+    text-decoration: none;
+}
