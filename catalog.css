@@ -1,5 +1,47 @@
-.catalog{
+.catalog {
     padding: 1rem;
+    padding-bottom: 0;
+    color: var(--color-brown-font);
 
 }
 
+.catalog__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0;
+}
+
+.catalog__list__item {
+    width: 156px;
+
+}
+
+.catalog__list__item img {
+    width: 156px;
+    height: 174px;
+    margin-top: 0.5rem;
+}
+
+.item-title {
+    font-size: 14px;
+    margin: 0.5rem 0;
+}
+
+.item-price {
+    margin: 0;
+    font-size: 16px;
+}
+
+.item-link {
+    margin: 0.5rem 0;
+    font-size: 14px;
+
+}
+
+.item-link a {
+    text-decoration: none;
+    color: var(--color-blue-btns);
+
+}

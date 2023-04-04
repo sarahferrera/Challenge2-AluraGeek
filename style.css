@@ -1,5 +1,7 @@
 :root {
-    --color-blue-btns: #2A7AE4
+    --color-blue-btns: #2A7AE4;
+    --color-brown-font:#464646;
+    --color-light-blue: #EAF2FD;
 }
 
 body {

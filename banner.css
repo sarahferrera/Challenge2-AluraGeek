@@ -3,6 +3,9 @@
     height: 192px;
     background: url(img/banner-image.png) center;
     background-size: cover;
+    /* background-position: center;
+    background-repeat: no-repeat;
+    background-origin: content-box; */
 
     display: flex;
     flex-direction: column;
