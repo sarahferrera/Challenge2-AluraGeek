@@ -6,13 +6,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="header.css">
-    <link rel="stylesheet" href="banner.css">
-    <link rel="stylesheet" href="catalog.css">
-    <link rel="stylesheet" href="nav.css">
-    <link rel="stylesheet" href="contact.css">
-    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/banner.css">
+    <link rel="stylesheet" href="css/catalog.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/footer.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -24,9 +24,17 @@
 <body>
     <header>
         <nav class="menu">
-            <img src="img/Logo.svg" alt="" class="logo">
-
-            <button class="btn__login">Login</button>
+            <div class="menu__container">
+                 <img src="img/Logo.svg" alt="" class="logo">
+            <form action="" class="search__form">
+                <label for="search__input"></label>
+                <input title="search__input" type="text" class="search__input">
+                <button title="search__submit" type="submit" class="search__submit">
+                    <img src="img/Icone.svg" alt="">
+                </button>
+                </form>
+            </div>
+            <button class="btn__login button">Login</button>
             <div class="search">
                 <img src="img/Icone__lupa.svg" alt="">
             </div>
@@ -38,7 +46,7 @@
             <!-- <img src="img/banner-image.png" alt=""> -->
             <h1 class="banner__title">Abril promocional</h1>
             <p class="banner_paragraph">Productos seleccionados con 33% de descuento</p>
-            <button class="banner__btn">Ver Consolas</button>
+            <button class="banner__btn button">Ver Consolas</button>
 
         </section>
 
@@ -48,29 +56,32 @@
                     <h2 class="catalog__name">Star Wars</h2>
                     <a href="">Ver todo<img src="img/arrow_back_black_24dp 1.svg" alt=""></a>
                 </div>
-                
+
                 <ul class="catalog__list">
                     <li class="catalog__list__item">
                         <img src="img/unsplash_6FDXGY9J6y4.png" alt="" class="item-img">
                         <p class="item-title">Producto XYZ</p>
                         <h3 class="item-price">$ 60.00</h3>
-                         <h4 class="item-link"><a href="">Ver Producto</a></h4>
-                        </li>
+                        <h4 class="item-link"><a href="">Ver Producto</a></h4>
+                    </li>
                     <li class="catalog__list__item">
                         <img src="img/unsplash_epRFE_hBNjo.png" alt="" class="item-img">
                         <p class="item-title">Producto XYZ</p>
                         <h3 class="item-price">$ 60.00</h3>
-                         <h4 class="item-link"><a href="">Ver Producto</a></h4></li>
+                        <h4 class="item-link"><a href="">Ver Producto</a></h4>
+                    </li>
                     <li class="catalog__list__item">
                         <img src="img/unsplash_0POwK6iAiRQ.png" alt="" class="item-img">
                         <p class="item-title">Producto XYZ</p>
                         <h3 class="item-price">$ 60.00</h3>
-                         <h4 class="item-link"><a href="">Ver Producto</a></h4></li>
+                        <h4 class="item-link"><a href="">Ver Producto</a></h4>
+                    </li>
                     <li class="catalog__list__item">
                         <img src="img/unsplash_bUgaIaZysH0.png" alt="" class="item-img">
                         <p class="item-title">Producto XYZ</p>
                         <h3 class="item-price">$ 60.00</h3>
-                         <h4 class="item-link"><a href="">Ver Producto</a></h4></li>
+                        <h4 class="item-link"><a href="">Ver Producto</a></h4>
+                    </li>
                 </ul>
 
             </div>
@@ -78,29 +89,33 @@
                 <div class="catalog__top item-link">
                     <h2 class="catalog__name">Consolas</h2>
                     <a href="">Ver todo<img src="img/arrow_back_black_24dp 1.svg" alt=""></a>
-                    
+
                 </div>
                 <ul class="catalog__list">
                     <li class="catalog__list__item">
                         <img src="img/unsplash_ZV7lnfyQLmA.png" alt="" class="item-img">
                         <p class="item-title">Producto XYZ</p>
                         <h3 class="item-price">$ 60.00</h3>
-                         <h4 class="item-link"><a href="">Ver Producto</a></h4></li>
+                        <h4 class="item-link"><a href="">Ver Producto</a></h4>
+                    </li>
                     <li class="catalog__list__item">
                         <img src="img/unsplash_KeGToDVN0l4.png" alt="" class="item-img">
                         <p class="item-title">Producto XYZ</p>
                         <h3 class="item-price">$ 60.00</h3>
-                         <h4 class="item-link"><a href="">Ver Producto</a></h4></li>
+                        <h4 class="item-link"><a href="">Ver Producto</a></h4>
+                    </li>
                     <li class="catalog__list__item">
                         <img src="img/unsplash_fMP-oCze3AY.png" alt="" class="item-img">
                         <p class="item-title">Producto XYZ</p>
                         <h3 class="item-price">$ 60.00</h3>
-                         <h4 class="item-link"><a href="">Ver Producto</a></h4></li>
+                        <h4 class="item-link"><a href="">Ver Producto</a></h4>
+                    </li>
                     <li class="catalog__list__item">
                         <img src="img/unsplash_jMT6BrgBuXU.png" alt="" class="item-img">
                         <p class="item-title">Producto XYZ</p>
                         <h3 class="item-price">$ 60.00</h3>
-                         <h4 class="item-link"><a href="">Ver Producto</a></h4></li>
+                        <h4 class="item-link"><a href="">Ver Producto</a></h4>
+                    </li>
                 </ul>
             </div>
             <div class="catalog__section catalog__three">
@@ -113,22 +128,26 @@
                         <img src="img/unsplash_KeGToDVN0l4.png" alt="" class="item-img">
                         <p class="item-title">Producto XYZ</p>
                         <h3 class="item-price">$ 60.00</h3>
-                         <h4 class="item-link"><a href="">Ver Producto</a></h4></li>
+                        <h4 class="item-link"><a href="">Ver Producto</a></h4>
+                    </li>
                     <li class="catalog__list__item">
                         <img src="img/unsplash_sYVY_ZKwaxU.png" alt="" class="item-img">
                         <p class="item-title">Producto XYZ</p>
                         <h3 class="item-price">$ 60.00</h3>
-                         <h4 class="item-link"><a href="">Ver Producto</a></h4></li>
+                        <h4 class="item-link"><a href="">Ver Producto</a></h4>
+                    </li>
                     <li class="catalog__list__item">
                         <img src="img/unsplash_wa5z9o9fgjw.png" alt="" class="item-img">
                         <p class="item-title">Producto XYZ</p>
                         <h3 class="item-price">$ 60.00</h3>
-                         <h4 class="item-link"><a href="">Ver Producto</a></h4></li>
+                        <h4 class="item-link"><a href="">Ver Producto</a></h4>
+                    </li>
                     <li class="catalog__list__item">
                         <img src="img/unsplash_ZV7lnfyQLmA.png" alt="" class="item-img">
                         <p class="item-title">Producto XYZ</p>
                         <h3 class="item-price">$ 60.00</h3>
-                         <h4 class="item-link"><a href="">Ver Producto</a></h4></li>
+                        <h4 class="item-link"><a href="">Ver Producto</a></h4>
+                    </li>
                 </ul>
             </div>
         </section>
@@ -153,8 +172,9 @@
                 <label for="name"></label>
                 <input class="form__text" title="name" type="name" placeholder="Nombre">
                 <label for="message"></label>
-                <textarea class="form__text" title="message" cols="30" rows="3" placeholder="Escribe tu mensaje"></textarea>
-                <button class="contact__form__btn" type="submit">Enviar mensaje</button>
+                <textarea class="form__text" title="message" cols="30" rows="3"
+                    placeholder="Escribe tu mensaje"></textarea>
+                <button class="contact__form__btn button" type="submit">Enviar mensaje</button>
             </form>
 
         </section>
