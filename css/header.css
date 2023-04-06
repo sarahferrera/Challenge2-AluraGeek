@@ -17,6 +17,11 @@
 }
 
 @media screen and (min-width:768px) {
+    .menu{
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
     .menu__container{
         display: flex;
         width: 55%;
@@ -59,5 +64,12 @@
 
     .btn__login {
         order: 2;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .menu {
+        padding-left: 9.5rem;
+        padding-right: 9.5rem;
     }
 }
