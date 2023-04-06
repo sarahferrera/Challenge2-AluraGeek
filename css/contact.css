@@ -1,6 +1,6 @@
 .contact {
     background-color: var(--color-light-blue);
-    padding: 0 1rem ;
+    padding: 0 1rem;
 }
 
 .contact__title {
@@ -9,7 +9,7 @@
     color: var(--color-brown-font);
 }
 
-.form__text{
+.form__text {
     border: none;
     width: 90%;
     padding: 1rem;
@@ -23,10 +23,16 @@
 }
 
 
-.contact__form__btn{
+.contact__form__btn {
     border: none;
     color: white;
     background-color: var(--color-blue-btns);
-    margin: 0.5rem 0 ;
+    margin: 0.5rem 0;
     margin-bottom: 1rem;
+}
+
+@media screen and (min-width:768px) {
+    .contact__title {
+        padding-top: 2rem;
+    }
 }
