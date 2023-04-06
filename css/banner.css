@@ -45,4 +45,12 @@
         padding-left: 9.5rem;
         padding-right: 9.5rem;
     }
+
+    .banner__title {
+        font-size: 52px;
+    }
+    
+    .banner_paragraph {
+        font-size: 22px;
+    }
 }
