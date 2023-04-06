@@ -20,6 +20,7 @@
 
 .contact__form input {
     margin-bottom: 0.5rem;
+    border-bottom: 1px var(--color-extra-light-gray) solid;
 }
 
 

@@ -1,5 +1,10 @@
-.btn__login {
-    display: none;
+.btn__menu {
+    border: 1px var(--color-blue-btns) solid;
+    color: var(--color-blue-btns);
+    background-color: white;
+    font-size: 14px;
+    padding: 12px;
+    width: 166px;
 }
 
 main {
@@ -25,22 +30,30 @@ main {
 }
 
 .form__input {
-    width: 275px;
+    width: 288px;
     height: 41px;
     font-size: 1rem;
     font-family: 'Raleway', sans-serif;
-    border-radius: 4px;
     border: none;
     margin-bottom: 1rem;
     color: var(--color-extra-light-gray);
     font-weight: 400;
     padding: 0 20px;
     background-color: white;
+    border-bottom: 1px var(--color-extra-light-gray) solid;
 }
 
+.form__label{
+    text-align: left;
+    color: var(--color-extra-light-gray);
+    width: 304px;
+    padding: 0 12px;
+    background-color: white;
+    font-size: 12px;
+}
 
 .form__button {
-    width: 109px;
+    width: 328px;
     background-color: var(--color-blue-btns);
     border: none;
     color: white;
