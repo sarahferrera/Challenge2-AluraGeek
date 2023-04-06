@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/banner.css">
-    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="css/new-product.css">
     <link rel="stylesheet" href="css/nav.css">
     <link rel="stylesheet" href="css/contact.css">
     <link rel="stylesheet" href="css/footer.css">
@@ -34,7 +34,7 @@
                     </button>
                 </form>
             </div>
-            <button class="btn__login button">Login</button>
+            <button class="btn__menu button">Menú administrador</button>
             <div class="search">
                 <img src="img/Icone__lupa.svg" alt="">
             </div>
@@ -43,15 +43,27 @@
     </header>
     <main>
         <form class="form" action="">
-            <h1 class="tittle">Iniciar sesion</h1>
-            <label for="email"></label>
-            <input class="form__input" placeholder="Escriba su correo electronico" type="email" name="" id="" title="email">
-            <input class="form__input" placeholder="Escriba su contraseña" type="password" name="" id="" title="password">
-            <button class="form__button button" type="submit">Entrar</button>
+            <h1 class="tittle">Agregar nuevo producto</h1>
+
+            <label class="form__label" for="url">URL de la imagen</label>
+            <input class="form__input" type="url" name="" id="" title="url">
+
+            <label class="form__label" for="categoria">Categoria</label>
+            <input class="form__input" placeholder="" type="text" name="" id="" title="categoria">
+
+            <label class="form__label" for="name">Nombre del producto</label>
+            <input class="form__input" placeholder="" type="text" name="" id="" title="name">
+
+            <label class="form__label" for="price">Precio del producto</label>
+            <input class="form__input" placeholder="" type="number" name="" id="" title="price">
+
+            <label class="form__label" for="description">Descripcion del producto</label>
+            <input class="form__input" placeholder="" type="text" name="" id="" title="description">
+
+            <button class="form__button button" type="submit">Agregar Producto</button>
         </form>
     </main>
     <footer>
-
         <section class="info">
             <nav class="nav">
                 <img src="img/Logo.svg" alt="">
