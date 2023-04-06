@@ -9,6 +9,9 @@
     display: none;
 }
 
+.search__input{
+    color: var(--color-light-gray);
+}
 
 .btn__login {
     color: var(--color-blue-btns);
@@ -71,5 +74,11 @@
     .menu {
         padding-left: 9.5rem;
         padding-right: 9.5rem;
+    }
+    .menu__container{
+        display: flex;
+        width: 55%;
+        justify-content: space-between;
+        align-items: center;
     }
 }
